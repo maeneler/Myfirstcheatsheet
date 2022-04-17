@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Cheatsheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>My first Cheatsheet - HTML & CSS</h1>
+    <nav>
+        <ul>
+            <li><a href="#Basic">Basic Tags</a></li>
+            <li><a href="#Formatting">Formatting</a></li>
+            <li><a href="#Text">Text Tags</a></li>
+            <li><a href="#Lists">Lists</a></li>
+            <li><a href="#Links">Links</a></li>
+            <li><a href="#Forms">Forms</a></li>
+            <li><a href="#Table">Table Tags</a></li>
+            <li><a href="#Attributes">Table Attributes</a></li>
+        </ul>
+    </nav>
+    <h2><a name="Basic">Basic Tags</a></h2>
+    <table class="tables">
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody class="table1">
+            <tr>
+                <td class="first-col">&lt;html&gt;</td>
+                <td>HTML</td>
+                <td>Creates a HTML Document</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;head&gt;</td>
+                <td>Document Header</td>
+                <td>Sets off the title & other info that isn't displayed</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;body&gt;</td>
+                <td>Document Body</td>
+                <td>Sets off the visible portion of the document</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;title&gt;</td>
+                <td>Document Title</td>
+                <td>Puts name of the document in the title bar; when bookmarking pages, this is what is bookmarked</td>
+            </tr>
+        </tbody>
+     </table>
+     <h2><a name="Formatting">Formatting</a></h2>
+     <table class="tables">
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody class="table1">
+            <tr>
+                <td class="first-col">&lt;p&gt;</td>
+                <td>Paragraph</td>
+                <td>Creates a new paragraph</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;blockquote&gt;</td>
+                <td>Blockquote</td>
+                <td>Puts content in a quote - indents text from both sides</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;div&gt;</td>
+                <td>Divison</td>
+                <td>Used to format inline content with CSS</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;span&gt;</td>
+                <td>Span</td>
+                <td>Used to format inline content with CSS</td>
+            </tr>
+        </tbody>
+     </table>
+     <h2><a name="Text">Text Tags</a></h2>
+     <table class="tables">
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody class="table1">
+            <tr>
+                <td class="first-col">&lt;h1/2/3/.../6&gt;</td>
+                <td>Headline</td>
+                <td>Creates headlines -- H1=largest, H6=smallest</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;em&gt;</td>
+                <td>Emphasize</td>
+                <td>Emphasizes a word (usually processed in italics)</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;strong&gt;</td>
+                <td>Strong</td>
+                <td>Emphasizes a word (usually processed in bold)</td>
+            </tr>
+         </tbody>
+     </table>
+     <h2><a name="Lists">Lists</a></h2>
+     <table class="tables">
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody class="table1">
+            <tr>
+                <td class="first-col">&lt;ul&gt;</td>
+                <td>Unordered List</td>
+                <td>Creates an unordered list</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;ol&gt;</td>
+                <td>Ordered List</td>
+                <td>Creates an ordered list (start=xx, where xx is a counting number)</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;li&gt;</td>
+                <td>List Item</td>
+                <td>Encompasses each list item</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;dl&gt;</td>
+                <td>Definition List</td>
+                <td>Creates a definition list</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;dt&gt;</td>
+                <td>Definition Term</td>
+                <td>Precedes each defintion term/td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;dd&gt;</td>
+                <td>Definition Data</td>
+                <td>Precedes each defintion</td>
+            </tr>
+         </tbody>
+     </table>
+     <h2><a name="Links">Links</a></h2>
+     <table class="tables">
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody class="table1" >
+            <tr>
+                <td class="first-col links">&lt;a href="URL"&gt;</td>
+                <td>Anchor Link</td>
+                <td>Creates a hyperlink to a Uniform Resource Locator</td>
+            </tr>
+            <tr>
+                <td class="first-col links">&lt;a href="mailto:"&gt;</td>
+                <td>Anchor Link</td>
+                <td>Creates a hyperlink to an email address</td>
+            </tr>
+            <tr>
+                <td class="first-col links">&lt;a name="NAME"&gt;</td>
+                <td>Anchor Link</td>
+                <td>Creates a target location within a document</td>
+            </tr>
+            <tr>
+                <td class="first-col links">&lt;a href="#NAME"&gt;</td>
+                <td>Anchor Link</td>
+                <td>Creates a link to that target location</td>
+            </tr>            
+         </tbody>
+     </table>
+     <h2><a name="Forms">Forms</a></h2>
+     <table class="tables">
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody class="table1">
+            <tr>
+                <td class="first-col input">&lt;form&gt;</td>
+                <td>Form(ular)</td>
+                <td>Defines a form</td>
+            </tr>
+            <tr>
+                <td class="first-col input">&lt;select multiple&gt;</td>
+                <td>Scrolling Menu</td>
+                <td>Creates a scrolling menu. Name=? sets the name of the menu, Size=? sets the number of menu items visible before user needs to scroll.</td>
+            </tr>
+            <tr>
+                <td class="first-col input">&lt;select name=?&gt;</td>
+                <td>Pulldown Menu</td>
+                <td>Creates a pulldown menu</td>
+            </tr>
+            <tr>
+                <td class="first-col input">&lt;option&gt;</td>
+                <td>Option</td>
+                <td>Sets off each menu item</td>
+            </tr>
+            <tr>
+                <td class="first-col input">&lt;input type="checkbox"&gt;</td>
+                <td>Checkbox</td>
+                <td>Creates a checkbox. Set name=? after the "checkbox" for the name and value=? defines the value associated with the input</td>
+            </tr>
+            <tr>
+                <td class="first-col input">&lt;input type="submit" &gt;</td>
+                <td>Submit Button</td>
+                <td>Creates a submit button.  Value=? sets the text in the submit button</td>
+            </tr>
+            <tr>
+                <td class="first-col input">&lt;input type="reset"&gt;</td>
+                <td>Reset Button</td>
+                <td>Creates a reset button.</td>
+            </tr>
+         </tbody>
+     </table>
+    <h2><a name="Table">Table Tags</a></h2>
+    <table class="tables">
+<thead>
+    <th>Tag</th>
+    <th>Name</th>
+    <th>Description</th>
+</thead>
+<tbody class="table1">
+    <tr>
+        <td class="first-col">&lt;table&gt;</td>
+        <td>Table</td>
+        <td>The wrapper element for all HTML tables.</td>
+    </tr>
+    <tr>
+        <td class="first-col">&lt;thead&gt;</td>
+        <td>Table Head</td>
+        <td>The set of rows defining the column headers in a table.</td>
+    </tr>
+    <tr>
+        <td class="first-col">&lt;tbody&gt;</td>
+        <td>Table Body</td>
+        <td>The set of rows containing actual table data.</td>
+    </tr>
+    <tr>
+        <td class="first-col">&lt;tr&gt;</td>
+        <td>Table Row</td>
+        <td>The table row container.</td>
+    </tr>
+    <tr>
+        <td class="first-col">&lt;td&gt;</td>
+        <td>Table Data</td>
+        <td>The table row container.</td>
+    </tr>
+    <tr>
+        <td class="first-col">&lt;tfoot&gt;</td>
+        <td>Table Foot</td>
+        <td>The set of rows defining the footer in a table.</td>
+    </tr>
+</tbody>
+</table>
+    <h2><a name="Attributes">Table Attributes</a></h2>
+    <table class="tables">
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody class="table1">
+            <tr>
+                <td class="first-col">&lt;colspan&gt;</td>
+                <td>Column Span</td>
+                <td>Defines how many columns a td element should span.</td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;rowspan&gt;</td>
+                <td>Row Span</td>
+                <td>Defines how many rows a td element should span.</td>
+            </tr>
+          
+            </tr>
+        </tbody>
+    </table>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+    //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</body>
+</html>
